@@ -8,3 +8,9 @@ function isPalindrome(word) {
         return false;
     }
 }
+
+if (isPalindrome(userWord)) {
+    console.log("The Word is a palindrome");
+} else {
+    console.log("The word is not palindrome");
+}
