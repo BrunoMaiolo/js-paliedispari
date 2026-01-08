@@ -1,0 +1,1 @@
+let userChoice = prompt("Chose even or odd")
