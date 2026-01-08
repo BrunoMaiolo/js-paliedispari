@@ -17,4 +17,12 @@ function isEven(number) {
   }
 }
 
+if (isEven(sum) && userChoice === "even") {
+  console.log("You win!");
+} else if (!isEven(sum) && userChoice === "odd") {
+  console.log("You win!");
+} else {
+  console.log("Computer wins!");
+}
+
 
